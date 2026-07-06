@@ -21,7 +21,7 @@ const STATS = [
 
 function Counter({ to }: { to: number }) {
   const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-50px" });
+  const inView = useInView(ref, { once: true });
   const count = useMotionValue(0);
   const reduce = useReducedMotion();
 
