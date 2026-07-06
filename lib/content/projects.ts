@@ -17,7 +17,7 @@ export const projects: ProjectItem[] = [
       "Cross-platform market app built with Flutter, backed by Supabase Auth and a realtime database, on a scalable component architecture.",
     tags: ["Flutter", "Supabase", "Realtime"],
     outcome: "Optimized for a smooth, responsive experience across platforms",
-    image: null,
+    image: "/images/market-ember.webp",
   },
   {
     slug: "inspire-me-wellness",
@@ -27,7 +27,7 @@ export const projects: ProjectItem[] = [
       "Wellness tracker with AI-based notes for personalized insights — covering mood, sleep, hydration, habits, and cycle data.",
     tags: ["Flutter", "Supabase", "AI notes"],
     outcome: "Secure data management with AI-personalized wellness insights",
-    image: null,
+    image: "/images/inspire-me-wellness.webp",
   },
   {
     slug: "blacklisted",
@@ -47,7 +47,7 @@ export const projects: ProjectItem[] = [
       "Expense tracking app in SwiftUI with SwiftData persistence — budgeting, expense capture, and financial insights at a glance.",
     tags: ["SwiftUI", "SwiftData", "Charts"],
     outcome: "Snappy, native budgeting with clear financial insights",
-    image: null,
+    image: "/images/spendscope.webp",
   },
   {
     slug: "redverse",
@@ -77,6 +77,6 @@ export const projects: ProjectItem[] = [
       "Flutter app serving ready-to-use social media content templates from Firebase Storage — generate once, share anywhere.",
     tags: ["Flutter", "Firebase", "Content"],
     outcome: "Lightweight cloud-asset pipeline for external sharing",
-    image: null,
+    image: "/images/c-template.webp",
   },
 ];
