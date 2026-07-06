@@ -3,6 +3,7 @@ import { Journey } from "@/components/journey";
 import { Skills } from "@/components/skills";
 import { Projects } from "@/components/projects";
 import { Experience } from "@/components/experience";
+import { Achievements } from "@/components/achievements";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <Experience />
+      <Achievements />
     </>
   );
 }
